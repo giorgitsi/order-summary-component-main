@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* - Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%) */
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.container{
+
+    background-color: hsl(225, 100%, 98%) ;
+    width: 450px;
+    max-width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    /* height: 550px; */
+
+}
+
+
+
+
+.img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* max-width: 100%; */
+    width: 100%;
+   
+
+}
+
+.content-container{
+    padding: 50px;
+    
+}
+
+
+
+.p{
+    padding: 0px 10px;
+    margin-top: 20px;
+    
+}
+
+.h2{
+}
+
+.box-container{
+    display: flex;
+    background-color:hsla(225, 100%, 94%, 0.502);
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top:20px 
+    
+
+}
+
+.text-black{
+    color: black;
+    font-weight: 800;
+}
+
+.text-opacity{
+    opacity: 0.6;
+}
+
+
+
+.img-2{
+    margin-right:20px ;
+
+}
+
+.box-container a{
+
+    margin-left: auto;
+
+}
+
+.btn-1{
+    border: 0px;
+    background-color:hsl(245, 75%, 52%) ;
+    padding:20px ;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    box-shadow: 0px 10px 10px 0px  hsla(245, 75%, 52%, 0.253);
+    cursor: pointer;
+}
+
+.btn-2{
+    border: 0px;
+    opacity: 0.7;
+    margin-top: 25px;
+    cursor: pointer;
+    
+}
